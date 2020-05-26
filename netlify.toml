@@ -3,6 +3,11 @@
   publish = "public/"
   command = "yarn build"
 
+[build.environment]
+  GATBSY_SANITY_PROJECT_ID="wnurfwjy"
+  GATBSY_SANITY_DATASET="production"
+  GATBSY_SANITY_TOKEN="Your Sanity Token"
+
 [template.environment]
   GATBSY_SANITY_PROJECT_ID="Your Sanity Project ID"
   GATBSY_SANITY_DATASET="Your Sanity Dataset"
